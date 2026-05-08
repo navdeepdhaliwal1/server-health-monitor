@@ -1,0 +1,26 @@
+===== Server Health Report =====
+Generated: 2026-05-08 15:24:34
+
+--- CPU Load ---
+ 15:24:34 up 14 min,  1 user,  load average: 0.00, 0.00, 0.00
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       421Mi       3.2Gi       3.5Mi       166Mi       3.3Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.6G  955G   1% /
+
+--- Alerts ---
+ Disk OK (1%)
+ Memory OK (13%)
+
+--- Top 5 Processes (CPU) ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  24124 14160 ?        Ss   15:10   0:00 /sbin/init
+root          91  0.0  0.3  35152 11904 ?        Ss   15:10   0:00 /usr/lib/systemd/systemd-udevd
+root         149  0.0  0.7  44076 27904 ?        Ss   15:10   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         262  0.0  0.8 123440 31616 ?        Ssl  15:10   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          49  0.0  0.4  50408 15880 ?        S<s  15:10   0:00 /usr/lib/systemd/systemd-journald
