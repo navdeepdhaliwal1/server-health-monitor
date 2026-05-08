@@ -1,12 +1,12 @@
 ===== Server Health Report =====
-Generated: 2026-05-08 15:24:34
+Generated: 2026-05-08 15:26:37
 
 --- CPU Load ---
- 15:24:34 up 14 min,  1 user,  load average: 0.00, 0.00, 0.00
+ 15:26:37 up 16 min,  1 user,  load average: 0.00, 0.00, 0.00
 
 --- Memory Usage ---
                total        used        free      shared  buff/cache   available
-Mem:           3.7Gi       421Mi       3.2Gi       3.5Mi       166Mi       3.3Gi
+Mem:           3.7Gi       422Mi       3.1Gi       3.5Mi       185Mi       3.3Gi
 Swap:          1.0Gi          0B       1.0Gi
 
 --- Disk Usage ---
@@ -15,7 +15,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 
 --- Alerts ---
  Disk OK (1%)
- Memory OK (13%)
+ Memory OK (14%)
 
 --- Top 5 Processes (CPU) ---
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
