@@ -1,0 +1,26 @@
+===== Server Health Report =====
+Generated: 2026-05-12 15:27:35
+
+--- CPU Load ---
+ 15:27:35 up  1:16,  2 users,  load average: 0.02, 0.03, 0.00
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       751Mi       2.2Gi       4.6Mi       801Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdf       1007G  1.9G  954G   1% /
+
+--- Alerts ---
+ Disk OK (1%)
+ Memory OK (38%)
+
+--- Top 5 Processes (CPU) ---
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.1  0.3  25236 14504 ?        Ss   14:11   0:07 /sbin/init
+root       113  0.0  0.3  35264 11904 ?        Ss   14:11   0:02 /usr/lib/systemd/systemd-udevd
+root      1095  0.0  0.7 1254016 27268 pts/0   Ssl+ 14:21   0:01 /mnt/wsl/docker-desktop/docker-desktop-user-distro proxy --distro-name Ubuntu --docker-desktop-root /mnt/wsl/docker-desktop C:\Program Files\Docker\Docker\resources
+root        61  0.0  0.4  50376 15872 ?        S<s  14:11   0:01 /usr/lib/systemd/systemd-journald
+root       175  0.0  0.7  44076 27760 ?        Ss   14:11   0:01 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
