@@ -1,0 +1,26 @@
+===== Server Health Report =====
+Generated: 2026-05-14 16:11:08
+
+--- CPU Load ---
+ 16:11:08 up  2:08,  1 user,  load average: 0.00, 0.00, 0.00
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       431Mi       3.1Gi       3.5Mi       190Mi       3.2Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  2.0G  954G   1% /
+
+--- Alerts ---
+ Disk OK (1%)
+ Memory OK (14%)
+
+--- Top 5 Processes (CPU) ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+navya       1267 14.2  0.0   4940  3456 pts/0    S+   16:11   0:00 /bin/bash ./monitor.sh
+root        1208  0.1  0.3 1792036 14080 ?       Ssl  16:06   0:00 /usr/libexec/wsl-pro-service
+root           1  0.0  0.3  24540 14572 ?        Ss   14:02   0:02 /sbin/init
+root          92  0.0  0.3  35152 11648 ?        Ss   14:02   0:01 /usr/lib/systemd/systemd-udevd
+root          49  0.0  0.4  50380 16000 ?        S<s  14:02   0:00 /usr/lib/systemd/systemd-journald
